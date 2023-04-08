@@ -1,0 +1,10 @@
+@font-face {
+    font-family: SourceCodePro;
+    src: url(../fonts/SourceCodePro-VariableFont_wght.ttf);
+}
+
+body {
+	font-family: SourceCodePro;
+	font-style: normal;
+	font-weight: normal;
+}

@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0; padding: 0;
+}
+
+body {
+  background: transparent;
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+
+div.compass {
+  font-size: 48px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  position: absolute; 
+  visibility: visible;
+  bottom: 3%;
+  left: 17%;
+}
+
+div.direction {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+}
+
+span.border {
+  color: rgba(255,255,255,1);
+  display: inline-block;
+  transform: scale(1.1, 1.5);
+  opacity: 0.39;
+  text-shadow:
+    -1px -1px 0 rgba(0, 0, 0, 0.5),
+    0 -1px 0 rgba(0, 0, 0, 0.5),
+    1px -1px 0 rgba(0, 0, 0, 0.5),
+    1px 0 0 rgba(0, 0, 0, 0.5),
+    1px 1px 0 rgba(0, 0, 0, 0.5),
+    0 1px 0 rgba(0, 0, 0, 0.5),
+    -1px 1px 0 rgba(0, 0, 0, 0.5),
+    -1px 0 0 rgba(0, 0, 0, 0.5);
+}
+
+span.direction {
+  color: rgb(255,255,255);
+  margin: 0 7px;
+}
+
+div.vicinity {
+  color: rgb(255,255,255);
+  font-size: 28px;
+
+  /* CSS Flexbox */
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+span.street {
+  color: rgba(41, 155, 255, 1);
+}
+
+span.zone {
+  font-size: 24px;
+  position: relative;
+  top: -3px;
+}
+
+.shadow-stroke {
+	text-shadow:
+    -1px -1px 0 rgba(0, 0, 0, 0.5),
+     0   -1px 0 rgba(0, 0, 0, 0.5),
+     1px -1px 0 rgba(0, 0, 0, 0.5),
+     1px  0   0 rgba(0, 0, 0, 0.5),
+     1px  1px 0 rgba(0, 0, 0, 0.5),
+     0    1px 0 rgba(0, 0, 0, 0.5),
+    -1px  1px 0 rgba(0, 0, 0, 0.5),
+    -1px  0   0 rgba(0, 0, 0, 0.5),
+		2px 3px 2px rgba(0,0,0,0.75);
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
