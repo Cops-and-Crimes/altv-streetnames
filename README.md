@@ -16,8 +16,8 @@ Es basiert auf eine RageMP Ressource von [@realdiegopoptart](https://github.com/
 
 ## Installation
 
-Fügen Sie einfach den Ordner `StreetNames` in ihren Serverordner `resources` und den Namen dieser Ressource zu Ihrer `server.toml` hinzu.
+Fügen Sie einfach den Ordner `altv-rezondes-streetnames` in ihren Serverordner `resources` und den Namen dieser Ressource zu Ihrer `server.toml` hinzu.
 
 ```
-StreetNames
+altv-rezondes-streetnames
 ```
